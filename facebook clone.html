@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>New Final Project</title>
+</head>
+<style>
+body 	{
+	margin: 0;
+	background-image: linear-gradient(white,darkgrey);
+	background-repeat: no-repeat;
+	min-height: 100vh; 
+	max-height: none;
+	}
+header	{
+	background-color: royalblue;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around; 
+	align-items:center;
+	padding: 0px;
+	margin: 0;
+	max-height: 5em;
+	}
+#facebook
+	{color: white;
+	font-size: 2.5em;
+	}
+	
+	
+#loginform
+	{display: flex;
+	flex-direction: row;
+	}	
+.label_input {
+	color: white;
+	font-size: 1em;
+	}
+.new {
+	display: flex;
+	flex-flow: column;
+	margin: 5px;
+	color: white;
+	
+	}
+.badiu {
+	align-items: center;
+	display: flex;
+	color: white;
+	}
+.badiu input{
+	margin: 0;
+	}
+.badiu_button{
+	display:flex;
+	align-items: center;
+	margin-top: 3px;
+	}
+.scrismic {
+	font-size: 0.8em;
+	}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	padding-bottom: 2em;
+	}
+.signup {
+	display: flex;
+	flex-direction: column;
+	}
+.container {
+	max-width:1150px;
+	display: flex;
+	width: 1125px;
+	
+}
+.primuldiv {
+	max-width: 50%; display: flex; flex-direction: column; margin: 0 1% 0 8%;
+}
+img {
+	width:100%;
+}
+#textingrosat
+	{
+	font-size: 1.5em;
+	color: royalblue;
+	}
+#scrismare {
+	font-size: 1.5em;
+	color: royalblue;
+	}
+#bigform {
+	color: royalblue;
+	}
+
+#why	{
+	color: royalblue;
+	font-size: 0.8em;
+	}
+#lastpara {
+	color: black;
+	font-size:80%;
+	}
+#butonuldejos {
+	display:flex;
+	align-items: center;
+	margin-top: 3px;
+	background-color: green;
+  	border: none;
+  	color: white;
+  	padding: 7px 28px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 15px;
+	border-style: outset;
+	border-color: black;
+	
+	}
+#butonuldejos:hover
+	 {background-color: darkgreen;
+	}
+.aliniere 
+	{ display: flex; flex-direction: row;
+	justify-content: space-between;
+	margin-right: 13em;
+	}
+#birthday {width: 10.55em;}
+.selectbox {
+	margin: 5px 0;
+	}
+.container_scris {
+	padding:0;
+	margin-bottom: 1em;
+	border-bottom: 1px royalblue solid;
+}
+.badiu-scrismare{
+	padding: 0;
+	margin:0;
+}
+.form-label{    
+display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.form-input{
+display: flex;
+flex-direction: column;
+width: 62%;
+}
+.badiu-aliniat{
+display: flex;
+flex-direction: row;
+width: 80%;
+margin: 0 auto;
+}
+.form-label label {
+	padding:5px 0;
+}
+.form-input input {
+	margin: 5px 0 0.5px;
+}
+.badiu-copil-mare{
+display: flex;
+flex-direction: row;
+width: 65%;
+margin: 0 auto;
+padding-left: 4em;
+}
+.badiu-copil-paros {
+	width:50%;
+}
+.signup{
+	width:33%;
+}
+#scrismare{
+	margin: 1em 0 0 0;
+}
+.badiu-gresit {
+padding-bottom: 1em;
+border-bottom: 1px royalblue solid;
+}
+.badiu-p {
+width: 70%;
+margin: 1em auto;
+font-size: 0.8em;
+}
+.container1 {
+height: 7em;
+background-color: white;
+
+}
+.container2 {
+display: flex;
+flex-direction: row;
+margin: 0 15.5em;
+font-size: small;
+border-bottom: inset;
+}
+.clasa1 {
+padding-left: 10px;
+color: royalblue;
+font-size: 1em;
+}
+.ullist {
+display: flex;
+flex-direction: row;
+color: royalblue;
+}
+.lili {
+padding-left: 15px;
+display: flex;
+flex-direction: row;
+color: royalblue;
+}
+.douacuvinte {
+display: flex;
+color: royalblue;
+flex-direction: row;
+padding-left: 12.5em;
+}
+.twowords {
+padding-left: 11px;
+}
+.linia2 {
+display: flex;
+font-size: small;
+padding-left: 3em;
+}
+.faralinie {
+text-decoration: none;
+}
+</style>
+<body>
+<header>
+	<p id="facebook">facebook</p>
+	<form id="loginform">
+		<div class="new"><label class="label_input" for="email">Email</label>
+		<input type="email"> 
+		<div class="badiu">
+			<input type="checkbox">
+		<lable class="scrismic">Keep me logged in</label>
+		</div>
+		</div>
+		<div class="new"><label class="label_input" for="password">Password</label>
+		<input type="password"><label class="scrismic"><a class="faralinie"href="https://askleo.com/how_do_i_recover_my_facebook_password/" target="_blank">Forgot your password?</a></label></div>
+<div class="badiu_button">
+		<button type="button" onclick="alert('This button is not working yet.')">Log In</button></div>
+		
+	</form>
+
+</header>
+<main class="main">
+<div class="container">
+	<div class="primuldiv">
+		<p id="textingrosat">Facebook helps you connect and share with the people in your life.</p>
+		<a href="https://ibb.co/pj2KMq1"><img src="https://i.ibb.co/yF0kZ2N/worldmap.jpg" alt="worldmap" border="0"></a>
+	</div>
+	<div class="signup">
+	<div class= "container_scris">
+		<p class="badiu-scrismare" id="scrismare">Sign Up</p>
+		<p class="badiu-scrismare">It's free and always will be.</p><forms id="bigform">
+		</div>
+		<div class="badiu-gresit">
+		<div class="badiu-aliniat">
+		<div class="form-label">
+<label for="fname">First Name:</label>
+<label for="lname">Last Name:</label>
+<label for="Your Email">Your Email:</label>
+<label for="Re-enter Email"> Re-enter Email:</label>
+<label for="password">New Password</label>
+<label for="Sex">I am:</label>
+<label for="birthday">Birthday:</label>
+
+</div>
+<div class="form-input">
+  <input type="text" id="fname" name="fname">
+  <input type="text" id="lname" name="lname">
+  <input type="email">
+   <input type="email">
+  <input type="password">
+
+<div class="selectbox">
+<select name="Sex" id="sex">
+
+	<option value="Select sex:">Select sex:</option>
+	<option value="Female">Female</option>
+  	<option value="Male">Male</option>
+  	<option value="Other">Other</option>
+</select>
+</div>
+<input type="date" id="birthday" name="birthday">
+</div>
+</div>
+<div class="badiu-copil-mare">
+<div class="badiu-copil-paros">
+</div>
+<div class="badiu-copil">
+  <div><p id="why">Why do I need to provide my birthday?</p></div>
+
+
+
+		<p1 id="lastpara">By clicking Sign Up, you agree to our terms and that you have read and understand our Data Use Policy.</p1><br>
+<div>
+<button id="butonuldejos"type="button" onclick="alert('This button is not working yet.')">Sign Up</button>
+</div>
+</div>
+</div>
+		
+	</div>
+	<div>
+<p class="badiu-p"><a href="https://www.pirple.com/" target="_blank" style="text-decoration:none">Create a page</a> for a celebrity, band or business.</p>
+</div>
+	</div>
+</div>
+	
+	
+</main>
+<footer class="container1">
+<div>
+	<div class="container2">
+		<p class="clasa1">English(US)</p>
+		<p class="clasa1">Espanol</p>
+		<p class="clasa1">Portugues(Brasil)</p>
+		<p class="clasa1">Francais(France)</p>
+		<p class="clasa1">سيارة</p>
+	</div>
+		<div class="linia2">
+			<div class="douacuvinte">
+		<p class="twowords">Facebook</p>
+		<p class="twowords">English(US)</p>
+		</div>
+			<div>
+				<ul class="ullist">
+					<li class="lili">Mobile</li>
+					<li class="lili">Find friends</li>
+					<li class="lili">Badges</li>
+					<li class="lili">People</li>
+					<li class="lili">Pages</li>
+					<li class="lili">About</li>
+					<li class="lili">Advertising</li>
+					<li class="lili">Create a Page</li>
+					<li class="lili">Developers</li>
+					<li class="lili">Carrers</li>
+					<li class="lili">Privacy</li>
+					<li class="lili">Terms</li>
+					<li class="lili">Help</li>
+				</ul>
+			</div>
+		</div>
+</div>
+
+</footer>
+
+
+</body>
+</html>
